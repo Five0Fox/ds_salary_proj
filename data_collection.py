@@ -9,6 +9,6 @@ Created on Fri Jun 12 14:39:42 2020
 import glassdoor_scraper as gs
 import pandas as pd
 
-df = gs.get_jobs('data scientist', 15, False)
+df = gs.get_jobs('data scientist', 100, False)
 
 df.to_csv('glassdoor_jobs.csv')
